@@ -13,32 +13,32 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           This starter project has a couple things!
-          <ul className="description-list">
-            <li>
-              uses next layout with a navbar and footer to demonstrate making
-              pages
-            </li>
-            <li>
-              contains multiple pages to demonstrate next page router navigation
-            </li>
-            <li>
-              utilizes github actions and linting to maintain consistent code
-              standards
-            </li>
-            <li>
-              {' '}
-              <Link
-                href="https://github.com/uclaacm/WestwoodCSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                westwood css
-              </Link>{' '}
-              for some baseline css added by default in acm&apos;s guidelines
-            </li>
-          </ul>
         </p>
 
+        <ul className="description-list">
+          <li>
+            uses next layout with a navbar and footer to demonstrate making
+            pages
+          </li>
+          <li>
+            contains multiple pages to demonstrate next page router navigation
+          </li>
+          <li>
+            utilizes github actions and linting to maintain consistent code
+            standards
+          </li>
+          <li>
+            {' '}
+            <Link
+              href="https://github.com/uclaacm/WestwoodCSS"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              westwood css
+            </Link>{' '}
+            for some baseline css added by default in acm&apos;s guidelines
+          </li>
+        </ul>
         <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs"
