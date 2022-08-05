@@ -12,6 +12,7 @@
   align-items: center;
 }
 
+@import "global_variables";
 .footer {
   display: flex;
   flex: 1;
@@ -21,15 +22,9 @@
   align-items: center;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
 
 .title a {
-  color: #0070f3;
+  color: $acm-blue;
   text-decoration: none;
 }
 
@@ -61,8 +56,6 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, 'Lucida Console', 'Liberation Mono',
-    'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace;
 }
 
 .grid {
@@ -88,8 +81,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: $acm-blue;
+  border-color: $acm-blue;
 }
 
 .card h2 {
