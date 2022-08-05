@@ -1,3 +1,5 @@
+@import "global_variables";
+
 .container {
   padding: 0 2rem;
 }
@@ -12,7 +14,6 @@
   align-items: center;
 }
 
-@import "global_variables";
 .footer {
   display: flex;
   flex: 1;
@@ -21,7 +22,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .title a {
   color: $acm-blue;

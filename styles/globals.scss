@@ -1,7 +1,8 @@
 /* you can remove westwood css if you don't want to use it,
-examples of how it looks here! https://uclaacm.github.io/WestwoodCSS/  */
-@import 'westwood.min.css';
+examples of how it looks here! https://uclaacm.github.io/WestwoodCSS/ */
+@import "westwood.min.css";
 @import "global_variables";
+
 html,
 body {
   padding: 0;
@@ -23,5 +24,5 @@ a {
 }
 
 description-list {
-font-size: 1.5rem;;
+  font-size: 1.5rem;
 }

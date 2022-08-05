@@ -8,7 +8,8 @@ export default function Test() {
     <MainLayout>
       <div className={styles.main}>
         <h1 className={styles.description}>
-          Here's yet another test page you can navigate to using the navbar!
+          Here&apos;s yet another test page you can navigate to using the
+          navbar!
         </h1>
         <Link href="/">
           <button>Go back home</button>

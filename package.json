@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint && eslint . --ext ts --ext tsx --ext js && npx stylelint \"**/*.{css,scss,sass}\"",
     "prepare": "husky install",
-    "lint-fix": "eslint . --ext ts --ext tsx --ext js --fix && npx stylelint --fix \"**/*.{css,scss,sass}\" && prettier --write .",
-    "pre-commit": "yarn lint-fix || true"
+    "lint-fix": "next lint && eslint . --ext ts --ext tsx --ext js --fix && npx stylelint --fix \"**/*.{css,scss,sass}\" && prettier --write .",
+    "pre-commit": "yarn lint-fix"
   },
   "dependencies": {
     "next": "12.2.3",
@@ -28,6 +28,7 @@
     "prettier": "^2.7.1",
     "stylelint": "^14.9.1",
     "stylelint-config-standard": "^26.0.0",
+    "stylelint-config-standard-scss": "^5.0.0",
     "typescript": "4.7.4"
   }
 }

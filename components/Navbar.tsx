@@ -1,6 +1,6 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import React from 'react';
 import WordmarkLogo from '../public/acm-logo-wordmark-extended.png';
 
 export default function Navbar() {

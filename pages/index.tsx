@@ -1,9 +1,7 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
+import Link from 'next/link';
 import MainLayout from '../components/MainLayout';
 import styles from '../styles/Home.module.scss';
-import Link from 'next/link';
 
 const Home: NextPage = () => {
   return (
@@ -36,7 +34,7 @@ const Home: NextPage = () => {
               >
                 westwood css
               </Link>{' '}
-              for some baseline css added by default in acm's guidelines
+              for some baseline css added by default in acm&apos;s guidelines
             </li>
           </ul>
         </p>
