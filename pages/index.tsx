@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import Link from 'next/link';
 import MainLayout from '../components/MainLayout';
 import styles from '../styles/Home.module.scss';
 
@@ -12,7 +11,7 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          This starter project has a couple things!
+          This starter project has a couple things:
         </p>
 
         <ul className="description-list">
@@ -28,15 +27,8 @@ const Home: NextPage = () => {
             standards
           </li>
           <li>
-            {' '}
-            <Link
-              href="https://github.com/uclaacm/WestwoodCSS"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              westwood css
-            </Link>{' '}
-            for some baseline css added by default in acm&apos;s guidelines
+            harnesses westwood css for some baseline css added by default in
+            acm&apos;s guidelines
           </li>
         </ul>
         <div className={styles.grid}>
