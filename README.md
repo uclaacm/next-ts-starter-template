@@ -5,7 +5,7 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4932fc43-c02a-4724-bfc0-0253ac602219/deploy-status)](https://app.netlify.com/sites/next-ts-starter-template/deploys)
 
-What's this? This is a template repository that sets up a few minor systems for a React micro-app, which is something that we've done frequently at ACM here at UCLA. This was based off of [TeachLA's React Starter](https://github.com/uclaacm/teach-la-ts-react-starter/blob/main/netlify.toml) and some Next.js project set-up within [opensource @ ucla](https://github.com/uclaacm/opensource).
+What's this? This is a template repository that sets up a few minor systems for a Next.js React micro-app with typescript, which is something that we've done frequently at ACM here at UCLA. This was based off of [TeachLA's React Starter](https://github.com/uclaacm/teach-la-ts-react-starter/blob/main/netlify.toml) and some Next.js project set-up within [opensource @ ucla](https://github.com/uclaacm/opensource).
 Here's what it does:
 
 - has GitHub Actions automatically set up for testing and linting builds
